@@ -7,6 +7,7 @@ import org.junit.Test;
 
 public class RadarTest {
 	@Test
+	//cos do testow
 	public void launchPatriotOnceWhenNoticesAScudMissle() {
 		PatriotBattery batteryMock = mock(PatriotBattery.class);
 		Radar radar = new Radar(batteryMock);
